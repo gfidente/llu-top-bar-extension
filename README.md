@@ -14,19 +14,20 @@ The extension provides for a little configuration screen useful to set the usern
 
 ## Installation
 
-The extension should easy to install via browser navigating to https://extensions.gnome.org/ ; to install it manually instead:
+The extension should be easy to install via browser from <https://extensions.gnome.org/>. To install it manually instead, first clone the repo into the gnome-shell extensions path[^1]:
 
-- Clone the repo into the gnome-shell extensions path*
+[^1]: By default the extesions directory should be `~/.local/share/gnome-shell/extensions/`; if it doesn't exist yet, create it.
+
 ```bash
-git clone https://github.com/gfidente/llu-top-bar-extension.git ~/.local/share/gnome-shell/extensions/llu-top-bar-extension@gfidente.github.io
+git clone https://github.com/gfidente/llu-top-bar-extension.git ~/.local/share/gnome-shell/extensions/llu-top-bar-extension@gfidente.github.com
 ```
-- Logout from GNOME and then login again
-- Open the Extensions app (or Tweaks app)
-- Find the 'LibreLinkUp Top Bar' extension, locate the three dots icon next to its name to open the preferences dialog
-- Configure the LibreLinkUp credentials
-- Enable the extension
 
-\* By default the directory should be `~/.local/share/gnome-shell/extensions/`; if it doesn't exist, create it.
+Then proceed to enable and configure the extension:
+1. Logout from GNOME and then login again
+1. Open the Extensions app (or Tweaks app)
+1. Find the 'LibreLinkUp Top Bar' extension, locate the three dots icon next to its name to open the preferences dialog
+1. Configure the LibreLinkUp credentials
+1. Enable the extension
 
 ## Good to know
 

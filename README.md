@@ -23,6 +23,8 @@ The extension should easy to install via browser navigating to https://extension
 
 ## Good to know
 
+With every update, the extension will also show (in brackets) how much the reading has changed compared to the previous value. This will be a number prefixed with a `+` or a `-` sign to indicate if the number is increasing or decreasing.
+
 Once enabled and running, if you click on the glucose value in the top bar, a small popup menu will open showing the patient name you are following and the serial number of the sensor in use.
 
 ## Limitations

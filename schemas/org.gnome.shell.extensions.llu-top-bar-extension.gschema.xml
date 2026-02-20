@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schemalist>
+  <schema
+        id="org.gnome.shell.extensions.llu-top-bar-extension"
+        path="/org/gnome/shell/extensions/llu-top-bar-extension/"
+    >
+    <key name="username" type="s">
+      <default>"email"</default>
+      <summary>Username</summary>
+      <description>The username (email) for API authentication.</description>
+    </key>
+    <key name="password" type="s">
+      <default>"password"</default>
+      <summary>Password</summary>
+      <description>The password for API authentication.</description>
+    </key>
+  </schema>
+</schemalist>

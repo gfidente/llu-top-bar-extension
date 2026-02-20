@@ -1,6 +1,10 @@
-A gnome-shell extension to show glucose readings from LibreLinkUp in the top bar
+# LibreLinkUp gnome-shell Top Bar extension
 
-# Overview
+A gnome-shell extension to show glucose readings from LibreLinkUp in the top bar.
+
+![extension screenshot](https://raw.github.com/gfidente/llu-top-bar-extension/main/screenshot.png)
+
+## Overview
 
 This is a simple extension which connects to [LibreLinkUp](https://www.librelinkup.com/) to retrive the latest glucose readings every 60 seconds and show them in the GNOME top bar.
 
@@ -10,16 +14,17 @@ The extension provides for a little configuration screen useful to set the usern
 
 The extension should easy to install via browser navigating to https://extensions.gnome.org/ ; to install it manually instead:
 
-- Download a zip/tarball from the github "Releases" section
-- Extract it in a directory named `llu-top-bar-extension@gfidente.github.com`
-- Move such directory to the GNOME extensions folder*
+- Clone the repo into the gnome-shell extensions path*
+```bash
+git clone https://github.com/gfidente/llu-top-bar-extension.git ~/.local/share/gnome-shell/extensions/llu-top-bar-extension@gfidente.github.io
+```
 - Logout from GNOME and then login again
 - Open the Extensions app (or Tweaks app)
 - Find the 'LibreLinkUp Top Bar' extension, locate the three dots icon next to its name to open the preferences dialog
 - Configure the LibreLinkUp credentials
 - Enable the extension
 
-\* Default folder should be `~/.local/share/gnome-shell/extensions/`; if it doesn't exist, create it.
+\* By default the directory should be `~/.local/share/gnome-shell/extensions/`; if it doesn't exist, create it.
 
 ## Good to know
 

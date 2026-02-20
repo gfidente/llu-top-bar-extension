@@ -4,6 +4,8 @@ A gnome-shell extension to show glucose readings from LibreLinkUp in the top bar
 
 ![extension screenshot](https://raw.github.com/gfidente/llu-top-bar-extension/main/screenshot.png)
 
+> This software program is not endorsed by, affiliated with, maintained, authorized, or sponsored by Abbott or Newyu. All product and company names are the registered trademarks of their original owners. The use of any trade name or trademark is for identification and reference purposes only and does not imply any association with the trademark holder of their product brand.
+
 ## Overview
 
 This is a simple extension which connects to [LibreLinkUp](https://www.librelinkup.com/) to retrive the latest glucose readings every 60 seconds and show them in the GNOME top bar.
